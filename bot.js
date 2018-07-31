@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '>ping') {
-    	message.reply('pong');
+    if (message.content === '/creator') {
+    	message.reply('BenjiCelven, he has a Twitch channel, and a Youtube one! Use "/twitch" and "/yt" for them.');
   	}
 });
 
