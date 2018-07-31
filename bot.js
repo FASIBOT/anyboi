@@ -11,18 +11,6 @@ client.on('message', message => {
   	}
 });
 
-client.on('message', message => {
-    if (message.content === '/twitch') {
-    	message.reply('https://www.twitch.tv/benjiceleven');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === '/yt') {
-    	message.reply('https://www.youtube.com/channel/UC7fHF0SUMGd9x32odZ9hv_A');
-  	}
-});
-
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
