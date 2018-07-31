@@ -23,11 +23,6 @@ client.on('message', message => {
   	}
 });
 
-client.on('message', message => {
-    if (message.content === '/insult') {
-    	message.reply('has no friends. *They are lonely. Nobody loves them.* Lol jk.');
-  	}
-});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
